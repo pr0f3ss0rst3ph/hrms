@@ -4,6 +4,8 @@ import user from '../images/user.png'
 
 const Rightnavbar = () => {
 
+
+
     return (
         <div className='right-nav-bar'>
             <div className='page-name'>
@@ -15,7 +17,7 @@ const Rightnavbar = () => {
             <div className='access-type'>
                 HR View
             </div>
-            <img alt='message' src={ messageicon1 } id='messageicon'/>
+            <img alt='message' src={ messageicon1 } id='messageicon'/> 
             <img alt='notification' src={ bell } id='notificationicon'/>
             <img alt='userprofile' src={ user } id='profileicon'/>
         </div>
