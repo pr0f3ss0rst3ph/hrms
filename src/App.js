@@ -22,24 +22,24 @@ const App = () => {
 
         if(counter % 2 === 0){
            setNumber(0)
-           console.log(number + ' Counter Even : Number set to False' + box)
-           console.log(box)
+           console.info(counter + ' Counter Even : Number set to ' + number + box)
+           console.info(box)
            
        }
        else if(counter % 2 !== 0){
            setNumber(1)
-           console.log(number + ' Odd Number - Number set to True' + box)
-           console.log(box)
+           console.info(counter + ' Counter Odd - Number set to ' + number + box)
+           console.info(box)
        }
     }
 
   return (
     <div className='appBody'>
-        <div className='leftside'>
+        <div className='leftside'>  {/*LEFT SIDE*/}
           <Sitename />  
           <Leftnavbar />
         </div>
-        <div className='rightside'>
+        <div className='rightside'> {/*RIGHT SIDE*/}
            <div className='right-nav-bar'>
              <div className='page-name'>
                  Home
