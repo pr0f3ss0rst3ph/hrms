@@ -8,7 +8,13 @@ const Contentbody = ({ toggle, box }) => {
 
     return (
         <div className='content-body'>
-            {toggle === 1 ? box === 'messageicon' ? <Smallmenu type='messages'/> : box === 'notificationicon' ? <Smallmenu type='notifications'/> : '' : ''}
+            {toggle === 1 ? 
+             box === 'messageicon' ? <Smallmenu type='messages'/> : 
+             box === 'notificationicon' ? <Smallmenu type='notifications'/> : 
+             box === 'profileicon' ? <Smallmenu type='profile'/> : '' : ''}
+
+             {/*Home Page Top Block*/}
+             
         </div>
     )
 }
