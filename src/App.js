@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { usePrevious } from 'react-use'
 import LogRocket from 'logrocket';
 import Sitename from "./components/Sitename"
 import Leftnavbar from "./components/Leftnavbar"
@@ -14,22 +15,28 @@ const App = () => {
 
   const [number, setNumber] = useState(0)
   const [box, setBox] = useState('')
+  let prevBox = usePrevious(box)
     
     const getNumber = (e) => {
        setBox(e.target.getAttribute('id'))
+       let checkbox = e.target.getAttribute('id');
+       console.log(checkbox + ' Clicked On!')
+       
        
        let counter = number + 1;
 
         if(counter % 2 === 0){
            setNumber(0)
            console.info(counter + ' Counter Even : Number set to ' + number + box)
-           console.info(box)
+           console.info(box + ' Current Box')
+           console.info(prevBox + ' Previous Box')
            
        }
        else if(counter % 2 !== 0){
            setNumber(1)
            console.info(counter + ' Counter Odd - Number set to ' + number + box)
-           console.info(box)
+           console.info(box + ' Current Box')
+           console.info(prevBox + ' Previous Box')
        }
     }
 
