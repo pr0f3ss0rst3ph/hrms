@@ -235,7 +235,7 @@ html {
 
 .menu-title {
   font-size: 20px;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 90%;
 }
 
@@ -250,7 +250,7 @@ html {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .menu-details {
@@ -304,7 +304,7 @@ html {
 
 .usernames {
   width: 60%;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .userfullname {
@@ -318,7 +318,7 @@ html {
 }
 
 .profileoptions {
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 2%;
 }
 

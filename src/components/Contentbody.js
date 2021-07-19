@@ -1,4 +1,5 @@
 import Smallmenu from "./Smallmenu"
+import Defaultwidget from "./Defaultwidget"
 
 const Contentbody = ({ toggle, box }) => {
 
@@ -14,7 +15,7 @@ const Contentbody = ({ toggle, box }) => {
              box === 'profileicon' ? <Smallmenu type='profile'/> : '' : ''}
 
              {/*Home Page Top Block*/}
-             
+             <Defaultwidget />
         </div>
     )
 }

@@ -230,6 +230,7 @@ html {
   margin-right: auto;
 }
 
+//*Dropdown Boxes - START
 .menubox {
   border: 1px solid $box-border;
   width: 20%;
@@ -253,7 +254,7 @@ html {
 
 .menu-title {
   font-size: 20px;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
   width: 90%;
 }
 
@@ -268,7 +269,7 @@ html {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
 }
 
 .menu-details {
@@ -322,7 +323,7 @@ html {
 
 .usernames {
   width: 60%;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
 }
 .userfullname {
   font-size: 20px;
@@ -335,7 +336,7 @@ html {
 }
 
 .profileoptions {
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
   margin-top: 2%;
 }
 
@@ -351,3 +352,4 @@ html {
   background-color: #dfdfdf;
   transition: 0.5s;
 }
+//*Dropdown Boxes - END
