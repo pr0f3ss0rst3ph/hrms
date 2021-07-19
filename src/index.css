@@ -335,4 +335,36 @@ html {
   transition: 0.5s;
 }
 
+.default-widget {
+  margin-top: 0.5%;
+  width: 98%;
+  padding: 10px;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+.check-button {
+  padding: 10px;
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background-color: #e2ffe2;
+  border-radius: 8px;
+  border: 2px solid #7cff67;
+  cursor: pointer;
+}
+
+.counter {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin-left: 3%;
+}
+
 /*# sourceMappingURL=index.css.map */

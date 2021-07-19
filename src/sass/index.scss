@@ -353,3 +353,38 @@ html {
   transition: 0.5s;
 }
 //*Dropdown Boxes - END
+
+//* Default Widget Bar
+
+.default-widget {
+  margin-top: 0.5%;
+  width: 98%;
+  //background-color: bisque;
+  padding: 10px;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome {
+  font-family: $roboto-font;
+  font-weight: bolder;
+}
+
+.check-button {
+  padding: 10px;
+  margin-left: 5%;
+  font-family: $roboto-font;
+  font-weight: bolder;
+  background-color: rgb(226, 255, 226);
+  border-radius: 8px;
+  border: 2px solid #7cff67;
+  cursor: pointer;
+}
+
+.counter {
+  font-family: $roboto-font;
+  font-weight: bolder;
+  margin-left: 3%;
+}
