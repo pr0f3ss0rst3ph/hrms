@@ -1,5 +1,6 @@
 import Smallmenu from "./Smallmenu"
 import Defaultwidget from "./Defaultwidget"
+import Widgetone from "./Widgetone"
 
 const Contentbody = ({ toggle, box }) => {
 
@@ -16,6 +17,9 @@ const Contentbody = ({ toggle, box }) => {
 
              {/*Home Page Top Block*/}
              <Defaultwidget />
+             <Widgetone title='New Employees' value='5'/>
+             <Widgetone title='Current Employees' value='98'/>
+
         </div>
     )
 }

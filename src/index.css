@@ -398,4 +398,47 @@ html {
   margin-left: auto;
 }
 
+.widgetone {
+  background-color: #dce8ee;
+  padding: 15px;
+  margin-top: 1%;
+  width: 20%;
+  border-radius: 8px;
+  box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --webkit-box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --moz-box-shadow: 4px 5px 10px -2px #c2c2c3;
+}
+
+.widget-header {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+}
+
+.widget-title {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.widget-review {
+  margin-left: auto;
+  background-color: #1b9fe9;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.widget-value {
+  text-align: right;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=index.css.map */
