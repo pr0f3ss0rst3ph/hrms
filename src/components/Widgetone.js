@@ -2,15 +2,15 @@
 const Widgetone = ({ title, value }) => {
     return (
         <div className='widgetone'>
-            <div className='widget-header'>
-                <div className='widget-title'>
+            <div className='widgetone-header'>
+                <div className='widgetone-title'>
                     { title }
                 </div>
-                <div className='widget-review'>
+                <div className='widgetone-review'>
                     Review
                 </div>
             </div>
-            <div className='widget-value'>
+            <div className='widgetone-value'>
                 { value }
             </div>
             
