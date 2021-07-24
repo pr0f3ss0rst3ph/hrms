@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -45,12 +46,12 @@ html {
 }
 
 .site-name {
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.2em;
   color: white;
-  margin-top: 0.5%;
+  margin-top: 2%;
 }
 
 .left-nav-bar {
@@ -119,8 +120,7 @@ html {
 .nav-item-text {
   width: 80%;
   color: white;
-  font-family: "Hind Guntur", sans-serif;
-  margin-top: 1%;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -143,9 +143,8 @@ html {
 
 .page-name {
   margin-left: 1%;
-  margin-top: 0.5%;
   width: 5%;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -188,8 +187,7 @@ html {
   width: 10%;
   margin-left: 30%;
   margin-right: 5%;
-  font-family: "Hind Guntur", sans-serif;
-  margin-top: 0.5%;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -237,7 +235,7 @@ html {
 
 .menu-title {
   font-size: 20px;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 90%;
 }
 
@@ -252,7 +250,7 @@ html {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .menu-details {
@@ -306,7 +304,7 @@ html {
 
 .usernames {
   width: 60%;
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .userfullname {
@@ -320,7 +318,7 @@ html {
 }
 
 .profileoptions {
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 2%;
 }
 
@@ -335,6 +333,158 @@ html {
 .profile-buttons:hover {
   background-color: #dfdfdf;
   transition: 0.5s;
+}
+
+.default-widget {
+  margin-top: 0.5%;
+  width: 98%;
+  padding: 10px;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+.check-in {
+  padding: 10px;
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background-color: #e2ffe2;
+  border-radius: 8px;
+  border: 2px solid #7cff67;
+  cursor: pointer;
+  user-select: none;
+}
+
+.check-in:hover {
+  background-color: #99ff99;
+  transition: 0.2s;
+}
+
+.check-out {
+  padding: 10px;
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background-color: #ffe2e2;
+  border-radius: 8px;
+  border: 2px solid #ff6767;
+  cursor: pointer;
+  user-select: none;
+}
+
+.check-out:hover {
+  background-color: #ff9999;
+  transition: 0.2s;
+}
+
+.counter {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin-left: 3%;
+}
+
+#add-widget {
+  margin-left: 2%;
+  width: 3%;
+  object-fit: contain;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25%;
+}
+
+.widgetone {
+  background-color: #dce8ee;
+  padding: 15px;
+  margin-top: 1%;
+  margin-right: 2%;
+  width: 18%;
+  border-radius: 8px;
+  box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --webkit-box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --moz-box-shadow: 4px 5px 10px -2px #c2c2c3;
+}
+.widgetone-header {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+}
+.widgetone-title {
+  font-weight: bolder;
+  font-size: 15px;
+}
+.widgetone-review {
+  margin-left: auto;
+  background-color: #1b9fe9;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.widgetone-value {
+  text-align: right;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.widgetthree {
+  background-color: #dce8ee;
+  padding: 15px;
+  margin-top: 0.8%;
+  position: absolute;
+  right: 1vw;
+  width: 43%;
+  border-radius: 8px;
+  box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --webkit-box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --moz-box-shadow: 4px 5px 10px -2px #c2c2c3;
+}
+.widgetthree-header {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+}
+.widgetthree-title {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.widgetthree-review {
+  margin-left: auto;
+  background-color: #1b9fe9;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.widgetthree-value {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=index.css.map */

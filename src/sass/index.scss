@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import "colors";
 
 $hind-guntur: "Hind Guntur", sans-serif;
+$roboto-font: "Roboto", sans-serif;
 
 html {
   scroll-behavior: smooth;
@@ -54,12 +56,12 @@ html {
 }
 
 .site-name {
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.2em;
   color: white;
-  margin-top: 0.5%;
+  margin-top: 2%;
 }
 
 //?Left Nav Bar
@@ -130,8 +132,7 @@ html {
 .nav-item-text {
   width: 80%;
   color: white;
-  font-family: $hind-guntur;
-  margin-top: 1%;
+  font-family: $roboto-font;
   font-size: 16px;
   font-weight: 600;
 }
@@ -157,9 +158,8 @@ html {
 
 .page-name {
   margin-left: 1%;
-  margin-top: 0.5%;
   width: 5%;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -202,8 +202,7 @@ html {
   width: 10%;
   margin-left: 30%;
   margin-right: 5%;
-  font-family: $hind-guntur;
-  margin-top: 0.5%;
+  font-family: $roboto-font;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -231,6 +230,7 @@ html {
   margin-right: auto;
 }
 
+//*Dropdown Boxes - START
 .menubox {
   border: 1px solid $box-border;
   width: 20%;
@@ -254,7 +254,7 @@ html {
 
 .menu-title {
   font-size: 20px;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
   width: 90%;
 }
 
@@ -269,7 +269,7 @@ html {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
 }
 
 .menu-details {
@@ -323,7 +323,7 @@ html {
 
 .usernames {
   width: 60%;
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
 }
 .userfullname {
   font-size: 20px;
@@ -336,7 +336,7 @@ html {
 }
 
 .profileoptions {
-  font-family: $hind-guntur;
+  font-family: $roboto-font;
   margin-top: 2%;
 }
 
@@ -351,4 +351,168 @@ html {
 .profile-buttons:hover {
   background-color: #dfdfdf;
   transition: 0.5s;
+}
+//*Dropdown Boxes - END
+
+//* Default Widget Bar
+
+.default-widget {
+  margin-top: 0.5%;
+  width: 98%;
+  //background-color: bisque;
+  padding: 10px;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome {
+  font-family: $roboto-font;
+  font-weight: bolder;
+}
+
+.check-in {
+  padding: 10px;
+  margin-left: 5%;
+  font-family: $roboto-font;
+  font-weight: bolder;
+  background-color: rgb(226, 255, 226);
+  border-radius: 8px;
+  border: 2px solid #7cff67;
+  cursor: pointer;
+  user-select: none;
+}
+
+.check-in:hover {
+  background-color: rgb(153, 255, 153);
+  transition: 0.2s;
+}
+
+.check-out {
+  padding: 10px;
+  margin-left: 5%;
+  font-family: $roboto-font;
+  font-weight: bolder;
+  background-color: rgb(255, 226, 226);
+  border-radius: 8px;
+  border: 2px solid #ff6767;
+  cursor: pointer;
+  user-select: none;
+}
+
+.check-out:hover {
+  background-color: rgb(255, 153, 153);
+  transition: 0.2s;
+}
+
+.counter {
+  font-family: $roboto-font;
+  font-weight: bolder;
+  margin-left: 3%;
+}
+
+#add-widget {
+  margin-left: 2%;
+  width: 3%;
+  object-fit: contain;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25%;
+}
+
+.widgetone {
+  background-color: #dce8ee;
+  padding: 15px;
+  margin-top: 1%;
+  margin-right: 2%;
+  width: 18%;
+  border-radius: 8px;
+  box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --webkit-box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --moz-box-shadow: 4px 5px 10px -2px #c2c2c3;
+
+  &-header {
+    display: flex;
+    flex-direction: row;
+    font-family: $roboto-font;
+  }
+
+  &-title {
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  &-review {
+    margin-left: auto;
+    background-color: #1b9fe9;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &-value {
+    text-align: right;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family: $roboto-font;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+}
+
+.widgetthree {
+  background-color: #dce8ee;
+  padding: 15px;
+  margin-top: 0.8%;
+  position: absolute;
+  right: 1vw;
+  width: 43%;
+  border-radius: 8px;
+  box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --webkit-box-shadow: 4px 5px 10px -2px #c2c2c3;
+  --moz-box-shadow: 4px 5px 10px -2px #c2c2c3;
+
+  &-header {
+    display: flex;
+    flex-direction: row;
+    font-family: $roboto-font;
+  }
+
+  &-title {
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  &-review {
+    margin-left: auto;
+    background-color: #1b9fe9;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &-value {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: $roboto-font;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
